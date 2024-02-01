@@ -3,9 +3,9 @@ while (ulang){
 var p = prompt("Selamat Datang di 'Game Suwit Jawa' \nSilahkan Pilih : (Orang, Semut, Gajah)");
 
 var com = Math.random();
-if (com < 0.36){
+if (com < 0.35){
     com = 'orang';
-} else if ( com >= 0.36 && com <= 0.66){
+} else if ( com >= 0.35 && com <= 0.65){
     com = 'gajah';
 } else {
     com = "semut";
