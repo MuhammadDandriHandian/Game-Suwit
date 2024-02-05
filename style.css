@@ -68,7 +68,7 @@ body {
 
 .area-komputer {
     width: 600px;
-    height: 200px;
+    height: 250px;
     margin: 5px auto;
     background-color: whitesmoke;
     position: relative;
@@ -79,7 +79,7 @@ body {
 
 .area-player {
     width: 600px;
-    height: 200px;
+    height: 250px;
     margin: 5px auto;
     background-color: whitesmoke;
     position: relative;
@@ -113,10 +113,16 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
     text-transform: uppercase;
     color: #e7e7e7;
     text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa, 1.5556349186px 1.5556349186px 0 #aaaaaa, 2.3334523779px 2.3334523779px 0 #aaaaaa, 3.1112698372px 3.1112698372px 0 #aaaaaa, 3.8890872965px 3.8890872965px 0 #aaaaaa, 4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa, 6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa, 7.7781745931px 7.7781745931px 0 #aaaaaa;
+}
+h4 {
+    margin-top: -5px;
+    margin-left: 10px;
+    font-weight: bold;
+    width: fit-content;
 }
 
 img {
@@ -124,14 +130,19 @@ img {
     height: 125px;
     display: block;
     margin: auto;
+    border: black solid 5px;
     border-radius: 50%;
 }
 
 .gajah, .orang, .semut {
     transition: .3s;
     position: relative;
-    top:0;
+    top:30px;
     cursor: pointer;
+}
+
+.semut {
+    margin-top: -5px;
 }
 
 .gajah:hover, .semut:hover, .orang:hover, .active {
@@ -174,7 +185,7 @@ img {
         font-size: 30px;
         font-weight: bold;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 40px;
         text-transform: uppercase;
         color: #e7e7e7;
         text-shadow: 1.5px 1.5px 0 #333, 0px 1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px -1.5px 0 #333, -1.5px 1.5px 0 #333, 1.5px -1.5px 0 #333, 0.7778174593px 0.7778174593px 0 #aaaaaa, 1.5556349186px 1.5556349186px 0 #aaaaaa, 2.3334523779px 2.3334523779px 0 #aaaaaa, 3.1112698372px 3.1112698372px 0 #aaaaaa, 3.8890872965px 3.8890872965px 0 #aaaaaa, 4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa, 6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa, 7.7781745931px 7.7781745931px 0 #aaaaaa;
@@ -183,7 +194,7 @@ img {
     .container {
         width: 90%;
         height: 500px;
-        margin: -20px auto;
+        margin: -50px auto;
         position: relative;
     }
     
@@ -226,6 +237,10 @@ img {
         font-size: 26px;
         text-shadow: 1px 1px 1px rgba(0,0,0,.3);
     }
+
+    .area-player h4 {
+        margin-top: -25px;
+    }
     
     img {
         width: 80px;
@@ -238,7 +253,7 @@ img {
     .gajah, .orang, .semut {
         transition: .3s;
         position: relative;
-        top:0;
+        top:10px;
         cursor: pointer;
     }
 
