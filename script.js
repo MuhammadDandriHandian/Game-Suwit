@@ -83,7 +83,7 @@ function putar(){
             clearInterval;
             return;
         }
-        imgComputer.setAttribute('src', 'img/' + gambar[i++] + '.png');
+        imgComputer.setAttribute('src', 'img/' + gambar[i++] + '.jpg');
         if(i == gambar.length) i = 0;
     }, 100)
 }
@@ -100,7 +100,7 @@ pilihan.forEach(function(pil){
 
         setTimeout(function(){
             const imgComputer = document.querySelector('.img-komputer');
-            imgComputer.setAttribute('src', 'img/' + pilihanComputer + '.png');
+            imgComputer.setAttribute('src', 'img/' + pilihanComputer + '.jpg');
             
             const info = document.querySelector('.info');
             info.innerHTML = hasil;
